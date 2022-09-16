@@ -1,0 +1,16 @@
+.box {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    position: relative;
+    border: 1px solid black;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 150px;
+    left: -16px;
+    background-color: brown;
+}
